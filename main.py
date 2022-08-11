@@ -14,9 +14,9 @@ client = commands.Bot(
 @client.event
 async def on_connect():
   await client.change_presence(activity = discord.Streaming(name = 
-  "status", url = "https://twitch.tv/paogah"))
+  "status", url = "https://twitch.tv/overtaker55"))
 
 
 
 alive.alive()
-client.run(os.getenv("TOKEN"), bot=False)
+client.run(os.getenv("OTE4NTcwNzQyNjMzODg5ODUz.G9Uhob.2gFo3IIFyPCjqMdnwgn9eujeZh9neQdBM3EeCE"), bot=False)
